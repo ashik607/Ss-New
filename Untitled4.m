@@ -1,0 +1,13 @@
+clc;
+clear all;
+close all;
+y1= [3 -1 0 -4];
+m = -1:2;
+z = fliplr(y1);
+m1 = fliplr(-m);
+subplot(3,1,1);
+stem(m,y1);
+axis([-2,2,-4,4]);
+subplot(3,1,3);
+stem(m1,z);
+axis([-2,2,-4,4]);
